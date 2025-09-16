@@ -6,10 +6,10 @@ function addTodo() {
   const regex = /^[a-zA-Zآ-ی\s]+$/;
 
   if (inputBox.value.trim() === "") {
-    alert("You cannot leave nothing in the box :(");
+    alert("لطفا باکس متن رو پر کنین و بعد دکمه تایید رو بزنید :)");
   } 
   else if (!regex.test(inputBox.value.trim())) {
-    alert("Only letters are allowed! No numbers or special characters.");
+    alert("لطفا فقط از حروف فارسی استفاده بکنید. نه کاراکتر های خاص و شماره ها.");
   } 
   else {
     let todoItem = document.createElement("li");

@@ -1,4 +1,8 @@
 @import "Queries.css";
+
+* {
+  transition: all 0.4s ease-in;
+}
 body,
 html {
   margin: 0;
