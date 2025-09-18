@@ -9,7 +9,7 @@ function addTodo() {
     alert("لطفا باکس متن رو پر کنین و بعد دکمه تایید رو بزنید :)");
   } 
   else if (!regex.test(inputBox.value.trim())) {
-    alert("لطفا فقط از حروف فارسی استفاده بکنید. نه کاراکتر های خاص و شماره ها.");
+    alert("لطفا فقط از حروف فارسی یا انگلیسی استفاده بکنید. نه کاراکتر های خاص و شماره ها!");
   } 
   else {
     let todoItem = document.createElement("li");
